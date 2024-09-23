@@ -1,0 +1,18 @@
+{
+  "name": "Test03",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.test.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "private": true,
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "mocha": "^10.7.3",
+    "pactum": "^3.7.1"
+  },
+  "dependencies": {
+    "supertest": "^7.0.0"
+  }
+}
