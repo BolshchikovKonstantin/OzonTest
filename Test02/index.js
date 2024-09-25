@@ -23,6 +23,12 @@ var sortKmage = function (a, b) {
     if (a.kmage == b.kmage) return 0;
 }
 
+var findCar = function (carArray, model) {
+    for (var i = 0; i < carArray.length; i++) {
+        if (carArray[i].model == model) return carArray[i];
+    }
+    return null;
+}
 console.log("Сортировка по году выпуска")
 carArray.sort(sortYear);  //сортировка по году выпуска
 console.log(carArray)
